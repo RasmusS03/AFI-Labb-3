@@ -1,0 +1,11 @@
+/* CAN-35 DÃķljer Samarbeten */
+nav ul#section-tabs li a.collaborations { display: none; }
+
+/* CAN-46 DÃķlj ÃĨterstÃĪllning av kurs */
+a[href$="reset"] { display:none; }
+
+/* Stoppa visning av knapparna "Conclude this Course" och "Delete this Course" */ 
+a[href$="conclude"], a[href$="delete"] { display:none; }
+
+/* Stoppa visning av drag-and-drop för filer i tomma moduler */
+div.content > div.module_dnd{display:none;}
